@@ -2,9 +2,9 @@
 
 * [Nyatakakadzraɖoƒe ƒe Gbegbɔgblɔ Vovovowo me Nuŋlɔɖiwo](https://github.com/xxai-doc)
 
-Nyatakakadzraɖoƒea ƒe ŋgɔgbe ƒe kɔpi nye esi woʋu ɖi, woxɔe nyuie be wòakpe ɖe gbegɔmeɖeɖea ŋu wòanyo wu
+Nyatakakadzraɖoƒea ƒe ŋgɔgbekpa nye ʋuʋu, woxɔe nyuie be wòakpe ɖe gbegɔmeɖeɖea ŋu wòanyo wu
 
-* [ŋgɔgbe-nuwuwu ƒe kɔpi](https://github.com/xxai-art/web)
+* [Frontend ƒe Sedede](https://github.com/xxai-art/web)
 * [Gbegbɔgblɔ ƒe agbalẽviwo na nyatakakadzraɖoƒe bliboa](https://github.com/xxai-art/web/tree/main/i18n)
 * [Gbegbɔgblɔ ƒe agbalẽviwo na gegeɖe modules](https://github.com/wacpkg/user/tree/main/ui.i18n)
 * [Nyatakakadzraɖoƒe ƒe Gbegbɔgblɔ Vovovowo me Nuŋlɔɖiwo](https://github.com/xxai-doc)
