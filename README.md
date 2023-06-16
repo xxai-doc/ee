@@ -17,14 +17,14 @@ Dɔwɔɖoɖo ƒe gbegbɔgblɔ si le ŋgɔgbe enye [@w5/coffee_plus](http://npmjs
 
 Tu ɖe dɔ 3 siwo gbɔna dzi
 
-### [@w5/mdt ƒe nyawo](https://www.npmjs.com/package/@w5/mdt)
+* [@w5/mdt ƒe nyawo](https://www.npmjs.com/package/@w5/mdt)
 
-Markdown template, kple megbenya `.mdt` , ateŋu afia gotagome faɛl siwo ƒe nyagɔmeɖegbalẽ sɔ kple `<+ ./coffee_plus/import.js>` .
+  Megbenya la nye `.mdt` , àteŋu azã nyagɔmeɖegbalẽ si sɔ kple `<+ ./coffee_plus/import.js>` atsɔ aƒo nu tso gotagome faɛlwo ŋu, eye nàwɔ markdown kple megbenya `.md` .
 
-[@w5/trmd ƒe nyawo](https://www.npmjs.com/package/@w5/trmd)
+* [@w5/trmd ƒe nyawo](https://www.npmjs.com/package/@w5/trmd)
 
-Markdown gɔmeɖeɖe maɖe kɔdawo kple kadodowo gɔme o, eye wòatsɔ nyagbe siwo gɔme woɖe la adzra ɖo. Ne wotrɔ asi le gɔmeɖeɖea ŋu gake wometrɔ asi le nuŋɔŋlɔ gbãtɔa ŋu o la, ewɔwɔ ake maŋlɔ tɔtrɔ si wowɔ le gɔmeɖeɖea ŋu o.
+  Markdown gɔmeɖeɖe maɖe kɔdawo kple kadodowo gɔme o, eye wòatsɔ nyagbe siwo gɔme woɖe la adzra ɖo. Ne wotrɔ asi le gɔmeɖeɖea ŋu gake wometrɔ asi le nuŋɔŋlɔ gbãtɔa ŋu o la, ewɔwɔ ake maŋlɔ tɔtrɔ si wowɔ le gɔmeɖeɖea ŋu o.
 
-[@w5/i18n ƒe nyawo](https://www.npmjs.com/package/@w5/i18n)
+* [@w5/i18n ƒe nyawo](https://www.npmjs.com/package/@w5/i18n)
 
-Gbegbɔgblɔ ƒe faɛlwo hena nyatakakadzraɖoƒe siwo `yaml` wɔ la gɔmeɖeɖe.
+  Gbegbɔgblɔ ƒe faɛlwo hena nyatakakadzraɖoƒe siwo `yaml` wɔ la gɔmeɖeɖe.
