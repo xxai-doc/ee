@@ -28,3 +28,47 @@ Tu ɖe dɔ 3 siwo gbɔna dzi
 * [@w5/i18n ƒe nyawo](https://www.npmjs.com/package/@w5/i18n)
 
   Gbegbɔgblɔ ƒe faɛlwo hena nyatakakadzraɖoƒe siwo `yaml` wɔ la gɔmeɖeɖe.
+
+### Document Translation Automation Mɔfiamewo
+
+Kpɔ nudzraɖoƒe [xxai-art/doc](https://github.com/xxai-art/doc)
+
+Woɖo aɖaŋu be nàde nodejs, [direnv](https://direnv.net) kple [bun](https://github.com/oven-sh/bun) gbã, eye emegbe nàwɔ `direnv allow` le gege ɖe agbalẽdzraɖoƒea vɔ megbe.
+
+Be maƒo asa na nudzraɖoƒe siwo lolo akpa siwo gɔme woɖe ɖe gbegbɔgblɔ alafa geɖe me la, mewɔ kɔpidzraɖoƒe aɖe si le vovo na gbegbɔgblɔ ɖesiaɖe eye mewɔ habɔbɔ aɖe si adzra nudzraɖoƒe sia ɖo
+
+Ne èɖo nutome ƒe tɔtrɔ `GITHUB_ACCESS_TOKEN` eye emegbe nèwɔ [create.github.coffee la](https://github.com/xxai-art/doc/blob/main/create.github.coffee) , awɔ nudzraɖoƒea le eɖokui si.
+
+Nyateƒee, àte ŋu atsɔe ade nudzraɖoƒe hã.
+
+Gbegɔmeɖeɖe ŋɔŋlɔdzesi ƒe nufiame [run.sh](https://github.com/xxai-art/doc/blob/main/run.sh)
+
+Woɖe ŋɔŋlɔdzesi ƒe kɔpi gɔme ale:
+
+[bunx](https://bun.sh/docs/cli/bunx) nye npx teƒenɔla, si le kabakaba wu. Nyateƒee, ne bun mele asiwò o la, àte ŋu azã `npx` ɖe eteƒe.
+
+`bunx mdt zh` ɖea `.mdt` le zh ƒe nuŋlɔɖi me abe `.md` ene, kpɔ faɛl 2 siwo do ƒome kplii le ete
+
+* [kɔfi_tsɔ kpe ɖe eŋu.mdt](https://github.com/xxai-doc/zh/blob/main/coffee_plus.mdt)
+* [kɔfi_tsɔ kpe ɖe eŋu.md](https://github.com/xxai-doc/zh/blob/main/coffee_plus.md)
+
+`bunx i18n` nye gɔmeɖeɖe ƒe kɔda vevitɔ (ne `nodejs` koe le asiwò, gake womede `bun` kple `direnv` o la, àteŋu awɔ `npx i18n` hã atsɔ aɖe gbegɔme).
+
+Aɖe [i18n.yml](https://github.com/xxai-art/doc/blob/main/i18n.yml) me, `i18n.yml` ƒe ɖoɖowɔwɔ le nuŋlɔɖi sia me le ale:
+
+```
+en:
+zh: ja ko en
+```
+
+Gɔmeseseae nye: Chinagbe gɔmeɖeɖe ɖe Japangbe, Koreagbe, Eŋlisigbe, Eŋlisigbe me gɔmeɖeɖe ɖe gbe bubuwo katã me. Ne Chinagbe kple Eŋlisigbe koe nèdi be yeado alɔe la, àte ŋu aŋlɔ `zh: en` .
+
+Mlɔetɔ enye [gen.README.coffee](https://github.com/xxai-art/doc/blob/main/gen.README.coffee) , si ɖea nusiwo le gbegbɔgblɔ ɖesiaɖe ƒe `README.md` ƒe tanya vevitɔ kple tanya sue gbãtɔ dome tsɔ wɔa nya aɖe si woŋlɔ ɖe `README.md` . Code la le bɔbɔe ŋutɔ, wò ŋutɔ àte ŋu alé ŋku ɖe eŋu.
+
+Wozãa Google API hena gbegɔmeɖeɖe femaxee. Ne màte ŋu age ɖe Google me o la, taflatse wɔ ɖoɖo eye nàɖo proxy, abe:
+
+```
+export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
+```
+
+Gbegɔmeɖeɖe ƒe ŋɔŋlɔdzesi la awɔ gbegɔmeɖeɖe ƒe cache le `.i18n` directory me, taflatse lé ŋku ɖe eŋu kple `git status` eye nàtsɔe akpe ɖe code nudzraɖoƒea ŋu be nàƒo asa na gbegɔmeɖeɖe enuenu.
