@@ -1,10 +1,10 @@
 <p align="center"><a href="https://xxai.art"><img src="https://cdn.jsdelivr.net/gh/xxai-art/doc/logo.svg"/></a><br/><a href="https://xxai.art"><img src="https://cdn.jsdelivr.net/gh/xxai-art/doc/xxai.svg"/></a></p><p align="center"><a href="https://github.com/xxai-art/doc#readme"><img alt="I18N" src="https://cdn.jsdelivr.net/gh/wactax/img/t.svg"/></a>　<a href="https://groups.google.com/u/0/g/xxai-art"><img alt="Google Groups" src="https://cdn.jsdelivr.net/gh/wactax/img/g-groups.svg"/></a></p>
 
-# xxAI.art
+Woɖo aɖaŋu be nàde nodejs, [direnv](https://direnv.net) , [bun](https://github.com/oven-sh/bun) gbã, eye emegbe `direnv allow` ne ège ɖe agbalẽdzraɖoƒea vɔ ( [.envrc la](https://github.com/xxai-art/doc/blob/main/.envrc) awɔ dɔ le eɖokui si ne ège ɖe agbalẽdzraɖoƒea vɔ).
 
-Nyatakakadzraɖoƒea ƒe kɔpi ƒe akpa aɖe nye dzɔtsoƒe si woate ŋu aʋu, míexɔ wò nyuie be wòakpe ɖe gbegɔmeɖeɖea ŋu wòanyo wu.
+Gɔmeseseae nye: Chinagbe gɔmeɖeɖe ɖe Japangbe, Koreagbe, Eŋlisigbe, Eŋlisigbe me gɔmeɖeɖe ɖe gbe bubuwo katã me. Ne Chinagbe kple Eŋlisigbe koe nèdi be yeado alɔe la, àte ŋu aŋlɔ `zh: en` .
 
-## ŋgɔgbe-nuwuwu ƒe kɔpi
+Gɔmeseseae nye: Chinagbe gɔmeɖeɖe ɖe Japangbe, Koreagbe, Eŋlisigbe, Eŋlisigbe me gɔmeɖeɖe ɖe gbe bubuwo katã me. Ne Chinagbe kple Eŋlisigbe koe nèdi be yeado alɔe la, àte ŋu aŋlɔ `zh: en` .
 
 * [ŋgɔgbe-nuwuwu ƒe kɔpi](https://github.com/xxai-art/web)
 * [Gbegbɔgblɔ ƒe agbalẽviwo na nyatakakadzraɖoƒe bliboa](https://github.com/xxai-art/web/tree/main/i18n)
@@ -31,15 +31,15 @@ Tu ɖe dɔ 3 siwo gbɔna dzi
 
 ### Document Translation Automation Mɔfiamewo
 
-Kpɔ nudzraɖoƒe [xxai-art/doc](https://github.com/xxai-art/doc)
+Kpɔ kɔdawo ƒe nudzraɖoƒe [xxai-art/doc](https://github.com/xxai-art/doc)
 
-Woɖo aɖaŋu be nàde nodejs, [direnv](https://direnv.net) kple [bun](https://github.com/oven-sh/bun) gbã, eye emegbe nàwɔ `direnv allow` le gege ɖe agbalẽdzraɖoƒea vɔ megbe.
+Woɖo aɖaŋu be nàde nodejs, [direnv](https://direnv.net) , [bun](https://github.com/oven-sh/bun) gbã, eye emegbe `direnv allow` ne ège ɖe agbalẽdzraɖoƒea vɔ ( [.envrc la](https://github.com/xxai-art/doc/blob/main/.envrc) awɔ dɔ le eɖokui si ne ège ɖe agbalẽdzraɖoƒea vɔ).
 
-Be maƒo asa na nudzraɖoƒe siwo lolo akpa siwo gɔme woɖe ɖe gbegbɔgblɔ alafa geɖe me la, mewɔ kɔpidzraɖoƒe aɖe si le vovo na gbegbɔgblɔ ɖesiaɖe eye mewɔ habɔbɔ aɖe si adzra nudzraɖoƒe sia ɖo
+Be maƒo asa na kɔda gã si gɔme woɖe ɖe gbegbɔgblɔ alafa geɖe me la, mewɔ kɔda ƒe gɔmeɖoanyi ɖe vovo na gbegbɔgblɔ ɖesiaɖe eye mewɔ habɔbɔ aɖe si adzra kɔdaɖoɖoa ɖo
 
-Ne èɖo nutome ƒe tɔtrɔ `GITHUB_ACCESS_TOKEN` eye emegbe nèwɔ [create.github.coffee la](https://github.com/xxai-art/doc/blob/main/create.github.coffee) , awɔ nudzraɖoƒea le eɖokui si.
+Ne èɖo nutome ƒe tɔtrɔ `GITHUB_ACCESS_TOKEN` eye emegbe nèwɔ [create.github.coffee la](https://github.com/xxai-art/doc/blob/main/create.github.coffee) , awɔ kɔda ƒe nudzraɖoƒea le eɖokui si.
 
-Nyateƒee, àte ŋu atsɔe ade nudzraɖoƒe hã.
+Nyateƒee, àte ŋu atsɔe ade code base hã me.
 
 Gbegɔmeɖeɖe ŋɔŋlɔdzesi ƒe nufiame [run.sh](https://github.com/xxai-art/doc/blob/main/run.sh)
 
@@ -71,4 +71,8 @@ Wozãa Google API hena gbegɔmeɖeɖe femaxee. Ne màte ŋu age ɖe Google me o 
 export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
 ```
 
-Gbegɔmeɖeɖe ƒe ŋɔŋlɔdzesi la awɔ gbegɔmeɖeɖe ƒe cache le `.i18n` directory me, taflatse lé ŋku ɖe eŋu kple `git status` eye nàtsɔe akpe ɖe code nudzraɖoƒea ŋu be nàƒo asa na gbegɔmeɖeɖe enuenu.
+Gbegɔmeɖeɖe ŋɔŋlɔdzesi la awɔ cache si gɔme woɖe le `.i18n` directory me, taflatse lé ŋku ɖe eŋu kple `git status` eye nàtsɔe akpe ɖe code nudzraɖoƒea ŋu be nàƒo asa na gbegɔmeɖeɖe enuenu.
+
+Taflatse ƒu du `bunx i18n` ɣesiaɣi si nètrɔ asi le gbegɔmeɖeɖea ŋu be nàwɔ cache la yeyee.
+
+Ne wotrɔ asi le nuŋɔŋlɔ gbãtɔ kple gɔmeɖeɖea ŋu le ɣeyiɣi ɖeka me la, cache la atɔtɔ, eyata ne èdi be yeatrɔ asi le eŋu la, ɖeka koe nàte ŋu atrɔ, eye emegbe nàwɔ `bunx i18n` atsɔ awɔ cache la yeyee.
