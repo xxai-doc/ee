@@ -2,13 +2,13 @@
 
 [@w5/coffee_plus](http://npmjs.com/@w5/coffee_plus) , tsɔ nɔnɔme aɖewo kpe ɖe eŋu le coffeescript ƒe nyagɔmeɖegbalẽ dzi, kpɔ [coffee_plus](./coffee_plus.md) .
 
-* ɖe gbeƒã tɔtrɔ
+## ɖe gbeƒã tɔtrɔ
 
 ```
 + var1, var2
 ```
 
-* gbeƒãɖeɖe ƒe dzeside
+## gbeƒãɖeɖe ƒe dzeside
 
 `:$` nye zazã kple [svelte](https://svelte.dev/docs#component-format-script-3-$-marks-a-statement-as-reactive) .
 
@@ -90,7 +90,7 @@ $ : (func = function() {
 });
 ```
 
-* tsɔtsɔ va duta kabakaba
+## tsɔtsɔ va duta kabakaba
 
 ```
 > zx/globals:
